@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Project01</name>
+    <description/>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-labelson-nodesc">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Folder>
+      <name>Food Banks</name>
+      <Placemark>
+        <name>Fort York Food Bank</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4051363,43.6573076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FOOD FOR THE POOR CANADA</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.389669,43.6708772,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parkdale Community Food Bank</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4404534,43.639633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stop Community Food Centre (The)</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4538337,43.6708572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Feed it Forward</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4613995,43.6654447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Daily Bread Food Bank</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.5041667,43.6066667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LAWYERS FEED THE HUNGRY</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3855254,43.6520876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Community Food Centres Canada</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4471528,43.6640992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toronto Vegetarian Food Bank</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4232012,43.6649128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Richmond Hill Community Food Bank</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.4258479,43.8793309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Food Bank of York Region</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.5008603,43.8113802,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Markham Food Bank</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.2815339,43.8752591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Takbeer Food Bank</name>
+        <styleUrl>#icon-1899-F57C00-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.2982089,43.7801119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Origin</name>
+      <Placemark>
+        <name>York University</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.5018684,43.7734535,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
